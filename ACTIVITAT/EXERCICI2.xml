@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <llista_actors>
+        <actor id="a001">
+            <nom>Marlon Brando</nom>
+            <edat>80</edat>
+        </actor>
+        <actor id="a002">
+            <nom>Emma Watson</nom>
+            <edat>33</edat>
+        </actor>
+        <actor id="a003">
+            <nom>Shah Rukh Khan</nom>
+            <edat>50</edat>
+        </actor>
+    </llista_actors>
+
+    <llista_pelicules>
+        <pelicula id="p001">
+            <titol idioma="español">El castillo Ambulante</titol>
+            <director>Hayao Miyazaki</director>
+            <any>1972</any>
+            <actors>
+                <actor_ref ref="a001"/>
+                <actor_ref ref="a002"/>
+            </actors>
+        </pelicula>
+        <pelicula id="p002">
+            <titol idioma="español">Mi vecino Totoro</titol>
+            <director>Hayao Miyazaki</director>
+            <any>2001</any>
+            <actors>
+                <actor_ref ref="a002"/>
+                <actor_ref ref="a003"/>
+            </actors>
+        </pelicula>
+        <pelicula id="p003">
+            <titol idioma="español">La tumba de las luciérnagas</titol>
+            <director>Hayao Miyazaki</director>
+            <any>1995</any>
+            <actors>
+                <actor_ref ref="a001"/>
+                <actor_ref ref="a003"/>
+            </actors>
+        </pelicula>
+    </llista_pellicules>
+
+    <llista_recomanacions_pelicules>
+        <recomanacio ref="p001"/>
+        <recomanacio ref="p002"/>
+        <recomanacio ref="p003"/>
+    </llista_recomanacions_pelicules>
+</catalog>
