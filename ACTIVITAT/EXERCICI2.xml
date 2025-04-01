@@ -43,7 +43,7 @@
                 <actor_ref ref="a003"/>
             </actors>
         </pelicula>
-    </llista_pellicules>
+    </llista_pelicules>
 
     <llista_recomanacions_pelicules>
         <recomanacio ref="p001"/>
